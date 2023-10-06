@@ -1,0 +1,160 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 100%;
+}
+.topo{
+    display: flex;
+    justify-content: center;
+}
+.principal{margin-bottom: 48px;
+    border-top: 0.4px solid #741467;}
+    body{
+        background-color:#e9cad4 ;
+        
+    }
+    section{padding: 20px;}
+.navegação{
+    font-size: 28px;
+    color: indianred;
+}
+.nome{font-size: 50px;
+text-align: center;
+color: rgb(77, 6, 20);
+}
+.sobre-mim{
+    font-size: 50px;
+    color:rgb(77, 6, 20);;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.resumo{
+    font-size: 30px; 
+}
+
+.foto{max-height: 500px;
+border-radius: 50%;}
+
+.sobre{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 28px;
+margin-top: 50px;}
+
+.hab{
+    font-size: 30px;
+    color:rgb(134, 37, 56);
+}
+.lista{
+    font-size: 25px; 
+}
+.hobbie{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.titulo-hobbie{
+    font-size: 30px;
+    color:rgb(134, 37, 56); 
+}
+
+.musica{
+    font-size: 30px; 
+    color:rgb(134, 37, 56);
+}
+
+.titulo-sobre-mim{
+    font-size: 30px;
+    color:rgb(134, 37, 56);
+}
+.fundamental{
+  font-size:25px ;
+margin-top:15px;
+margin-bottom: 9px;}
+
+  .curriculo2{
+    font-size: 45px;
+    text-align: center;
+   color:  rgb(134, 37, 56);
+   margin-top: 45px;
+  }
+    
+.curriculo2{
+    font-size: 50px;
+    color:rgb(77, 6, 20);
+    margin-top: 130px;
+    text-align: center;    
+}
+.github{
+    font-size: 50px;
+    color:rgb(77, 6, 20);
+    margin-top: 130px;
+    text-align: center; 
+}
+.github-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.git{
+    margin-top: 48px;
+    width: 400px;
+}
+Table{
+    Width: 800px;
+    border-collapse: collapse;
+    text-align: center;
+}
+td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+thead{
+    background-color: rgb(90, 9, 47);
+    color: rgb(252, 112, 142);
+}
+.titulo-tabela{
+    font-size: 30px;
+    color:rgb(134, 37, 56);
+}
+.divtabela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.pag-inicial2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario{
+    
+    font-size: 26px;
+    border: 1px solid;
+    border-radius: 30px; 
+    background-color:#f5a5c5;
+}
+
+     .divisao{
+        width: 900px;
+    }
+
+    .pag-inicial{
+        text-align: center;
+    }
+    
+    .botao{
+        background-color: #ecb5c6;
+    
+    }

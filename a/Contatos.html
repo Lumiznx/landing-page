@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ludimila zanotelli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topo">
+        <nav class="navegação">
+            <a href="trabalho.html">Home</a>
+            <a href="Curriculo.html">Currículo</a>
+            <a href="GitHub.html">GitHub</a>
+            <a href="Servicos.html">Serviços</a>
+            <a href="Contatos.html">Contatos</a>
+        </nav>            
+    </header>
+    <main>
+        <section class="pag-inicial2">
+            <div class="pag-inicial">
+                <h1 class="titulo-sobre-mim">Formulário de Contato</h1>
+            </div>
+            <div class="divisao">
+                <form class="formulario" action="#" method="POST">
+                    <label for="nomeCompleto">Nome Completo:</label>
+                    <input type="text" id="nomeCompleto" name="nomeCompleto"><br><br>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone"><br><br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="pessoaFisicaJuridica">Pessoa Física ou Jurídica:</label>
+                    <select id="pessoaFisicaJuridica" name="pessoaFisicaJuridica">
+                        <option value="pessoaFisica">Pessoa Física</option>
+                        <option value="pessoaJuridica">Pessoa Jurídica</option>
+                    </select><br><br>
+                    <label for="horarioContato">Melhor Horário de Contato:</label>
+                    <input type="text" id="horarioContato" name="horarioContato"><br><br>
+                    <label for="tipoDeServico">Tipo de Serviço Desejado:</label><br>
+                    <input type="checkbox" id="Página Estática" name="Página Estática" value="Página Estática">
+                    <label for="Página Estática">Página Estática</label><br>
+                    <input type="checkbox" id="Página Dinâmica" name="Página Dinâmica" value="Página Dinâmica">
+                    <label for="Página Dinâmica">Página Dinâmica</label><br>
+                    <input type="checkbox" id="Página Super Avançada" name="Página Super Avançada" value="Página Super Avançada">
+                    <label for="Página Super Avançada">Página Super Avançada</label><br><br>
+                    <label for="descricaoServico">Breve Descrição do que Deseja Contratar:</label><br>
+                    <textarea id="descricaoServico" name="descricaoServico" rows="4" cols="50"></textarea><br><br>
+                    <input type="submit" value="Enviar" class="botao">
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
